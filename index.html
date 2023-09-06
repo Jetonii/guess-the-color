@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="color game, RGB color, color guessing, color code" />
+    <meta name="author" content="Jeton Sllamniku" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta name="description"
+        content="Test your color knowledge with our fun RGB color guessing game. Can you guess the color represented by RGB(80, 80, 80)?" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Guess the Color Game | RGB | Hex</title>
+</head>
+
+<body>
+    <header>
+        <a class='logo-home' href="index.html">
+            <h1>Guess the Color</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/how-to-play.html">How to Play</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left-side">
+            <div>
+                <p class="question-header">Which color is this?</p>
+                <button type="button" class="switch" title="Switch to 'Given the color, find the code'">Switch</button>
+            </div>
+            <div class="color-code-container">
+                <p class="color-code"><i>RGB(80, 80, 80)</i></p>
+            </div>
+        </div>
+        <aside class="options">
+            <div>
+                <p class="question">Question <span>7/10</span></p>
+                <p class="score">Score: <span>7/10</span></p>
+            </div>
+            <ol>
+                <li class="option" title="option 1"><span class="correct">Correct &#x2713</span></li>
+                <li class="option" title="option 2"><span class="correct">Correct &#x2713</span></li>
+                <li class="option" title="option 3"><span class="correct">Correct &#x2713</span></li>
+                <li class="option" title="option 4"><span class="correct">Correct &#x2713</span></li>
+            </ol>
+            <button type="button" class="next">Next</button>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2023 Guess The Color By <a class='by'
+                href="https://www.linkedin.com/in/jeton-sllamniku-420839205/">Jeton</a>. All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

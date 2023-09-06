@@ -1,0 +1,100 @@
+header {
+    background-color: #aaa;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.2);
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    padding: 0 20px;
+}
+
+header nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.logo-home {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    min-width: 300px;
+    width: 70%;
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: white;
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+main .result {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main .result.badResult {
+    background-color: darkred;
+}
+
+main .result.fineResult {
+    background-color: #8b8000;
+}
+
+main .result.superResult {
+    background-color: #006400;
+}
+
+main a {
+    margin: 40px auto;
+}
+
+.play-again {
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: darkred;
+    color: white;
+}
+
+.play-again:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer .by {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+}
